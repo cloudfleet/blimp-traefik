@@ -1,3 +1,3 @@
-FROM traefik:latest
+FROM traefik:alpine
 
 COPY traefik.toml /traefik.toml
